@@ -5,35 +5,44 @@
   --nav-font: "Poppins",  sans-serif;
 }
 :root {
-  --background-color: #fffaf3; /* Slight off-white for warmth */
-  --default-color: #2e2e2e; /* Deep charcoal for better contrast with warm tones */
-  --heading-color: #1e1e1e; /* Bold, close to black for strong titles */
-  --accent-color: #D62828; /* Red (matches scarf and chili) */
-  --surface-color: #ffffff; /* Cards, boxes, etc. */
-  --contrast-color: #ffffff; /* For buttons/text on accent backgrounds */
+  /* Base Colors */
+  --background-color: #fdf7f0;       /* Very light warm background */
+  --default-color: #3e2f1c;          /* Deep brown for text */
+  --heading-color: #2a1e12;          /* Bolder, darker brown for headings */
+  --accent-color: #A52A2A;           /* Classic red-brown (also chili/red tone) */
+  --surface-color: #fffaf3;          /* Card backgrounds */
+  --contrast-color: #ffffff;         /* For text/icons on accent backgrounds */
+
+  /* Supporting Colors */
+  --green-accent: #228B22;           /* Forest green (use for buttons or links) */
+  --white-accent: #ffffff;
 }
 
 /* Nav Menu Colors */
 :root {
-  --nav-color: #ffffff;
-  --nav-hover-color: #D62828; /* Red hover effect */
-  --nav-mobile-background-color: #000000; /* Strong black nav */
-  --nav-dropdown-background-color: #ffffff;
-  --nav-dropdown-color: #2e2e2e;
-  --nav-dropdown-hover-color: #D62828;
+  --nav-color: #fdf7f0;              /* Brown for nav text */
+  --nav-hover-color: #A52A2A;        /* Red-brown hover */
+  --nav-mobile-background-color: #2a1e12; /* Dark brown for mobile nav */
+  --nav-dropdown-background-color: #fffaf3;
+  --nav-dropdown-color: #3e2f1c;
+  --nav-dropdown-hover-color: #228B22; /* Green hover for dropdown links */
 }
 
-/* Color Presets */
+/* Light Theme */
 .light-background {
-  --background-color: #fffaf3;
-  --surface-color: #ffffff;
+  --background-color: #fdf7f0;
+  --surface-color: #fffaf3;
+  --default-color: #3e2f1c;
+  --heading-color: #2a1e12;
+  --contrast-color: #ffffff;
 }
 
+/* Dark Theme */
 .dark-background {
-  --background-color: #1e160d; /* Rich dark brown, like burnt crust */
+  --background-color: #2a1e12;      /* Deep roasted brown */
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #2b1a12; /* Dark surface card background */
+  --surface-color: #3e2f1c;         /* Medium brown for cards */
   --contrast-color: #ffffff;
 }
 
